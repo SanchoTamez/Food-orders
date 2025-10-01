@@ -7,6 +7,7 @@ struct MenuItem: Identifiable {
     let price: Double
 }
 
+//struct
 struct ContentView: View {
     let menuItems: [MenuItem] = [
         MenuItem(title: "Burger", imageName: "hamburger", price: 8.99),
